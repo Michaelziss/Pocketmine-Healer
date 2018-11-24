@@ -1,0 +1,14 @@
+name: Healer
+main: Heal\Healer\Main
+api: 3.3.2
+author: Keichi
+version: 1.0.0
+commands:
+ heal:
+  description: heal command
+permissions:
+ healer.heal:
+  default: op
+  description: Permission for heal command
+ healer.heal.other:
+  default: op
